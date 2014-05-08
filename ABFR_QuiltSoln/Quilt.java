@@ -125,7 +125,7 @@ public class Quilt
                             {'.', '.', 'x', '.', '.'},
                             {'.', '.', 'x', '.', '.'} };
 
-        Quilt q = new Quilt(qBlock, 4, 4);
+        Quilt q = new Quilt(qBlock, 3, 3);
         
         char[][] quilt = q.quiltToMat();
         
